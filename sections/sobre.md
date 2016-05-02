@@ -2,7 +2,7 @@
 layout: content
 name: sobre
 ---
-## Sobre nós
+# Sobre nós
 
 <p>Nossa história começou em 2011, na santa Internet. Depois de algumas conversas, ficamos amigos e decidimos nos encontrar pessoalmente. Cada um tem uma opinião da primeira impressão sobre o outro, mas basta dizer que gostamos do que vimos. E a partir daí, a história fica meio inacreditável: continuamos a sair juntos por causa de uma partida de xadrez. Após nosso primeiro encontro, jogamos uma partida e o vencedor escolheria uma recompensa. A qual quisesse. Não importa dizer quem venceu, pois isso diminuiria o crédito de quem vos escreve, mas é necessário ressaltar que a escolha de recompensa foi um reencontro no outro dia.</p>
 
