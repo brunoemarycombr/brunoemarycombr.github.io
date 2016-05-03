@@ -1,21 +1,21 @@
 ---
-layout: content
+layout: xxx
 name: galeria
 ---
 
-<div id="galeria" class="carousel slide" data-ride="carousel">
+<div id="galeria-fotos" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-        <li data-target="#galeria" data-slide-to="0" class="active"></li>
-        <li data-target="#galeria" data-slide-to="1"></li>
-        <li data-target="#galeria" data-slide-to="2"></li>
-        <li data-target="#galeria" data-slide-to="3"></li>
-        <li data-target="#galeria" data-slide-to="4"></li>
-        <li data-target="#galeria" data-slide-to="5"></li>
-        <li data-target="#galeria" data-slide-to="6"></li>
-        <li data-target="#galeria" data-slide-to="7"></li>
-        <li data-target="#galeria" data-slide-to="8"></li>
-        <li data-target="#galeria" data-slide-to="9"></li>
+        <li data-target="#galeria-fotos" data-slide-to="0" class="active"></li>
+        <li data-target="#galeria-fotos" data-slide-to="1"></li>
+        <li data-target="#galeria-fotos" data-slide-to="2"></li>
+        <li data-target="#galeria-fotos" data-slide-to="3"></li>
+        <li data-target="#galeria-fotos" data-slide-to="4"></li>
+        <li data-target="#galeria-fotos" data-slide-to="5"></li>
+        <li data-target="#galeria-fotos" data-slide-to="6"></li>
+        <li data-target="#galeria-fotos" data-slide-to="7"></li>
+        <li data-target="#galeria-fotos" data-slide-to="8"></li>
+        <li data-target="#galeria-fotos" data-slide-to="9"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -53,11 +53,11 @@ name: galeria
     </div>
 
     <!-- Controls -->
-    <a class="left carousel-control" href="#galeria" role="button" data-slide="prev">
+    <a class="left carousel-control" href="#galeria-fotos" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Anterior</span>
     </a>
-    <a class="right carousel-control" href="#galeria" role="button" data-slide="next">
+    <a class="right carousel-control" href="#galeria-fotos" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Próxima</span>
     </a>
