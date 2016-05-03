@@ -49,11 +49,13 @@ footer {
     color: #484043;
 }
 
-#countdown {
+#quantofalta {
     padding: 0;
-    font-size: 52px;
-    font-weight: 700;
 }
+    #countdown {
+        font-size: 52px;
+        font-weight: 700;
+    }
 
 #map {
     margin-top: 0;
