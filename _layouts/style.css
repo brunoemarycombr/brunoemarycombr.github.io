@@ -61,3 +61,7 @@ footer {
 #map {
     margin-top: 0;
 }
+
+#listadepresentes img {
+    max-width: 100%;
+}
