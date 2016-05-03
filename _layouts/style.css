@@ -1,2 +1,12 @@
 {% include css/bootstrap.min.css %}
 {% include css/grayscale.css %}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 15px;
+}
+
+.navbar-brand {
+    line-height: 40px;
+}
