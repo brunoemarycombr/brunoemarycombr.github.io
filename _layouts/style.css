@@ -5,10 +5,6 @@ header {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.6);
 }
 
-.top-nav-collapse {
-    background-color: #593834;
-}
-
 .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -30,6 +26,22 @@ h3 {
 .content-section p {
     text-indent: 25px;
     font-size: 16px;
+}
+
+.top-nav-collapse,
+#galeria,
+#padrinhos,
+#quantofalta,
+footer {
+    background-color: #484043;
+    color: #EAD3A8;
+}
+
+#sobre,
+#familiares,
+#cerimoniarecepcao {
+    background-color: #EAD3A8;
+    color: #484043;
 }
 
 #countdown {
