@@ -36,12 +36,11 @@ h3 {
         }
 
 .top-nav-collapse,
-.navbar-custom,
 .navbar-custom.top-nav-collapse a,
 #galeria,
 #padrinhos,
 #quantofalta,
-footer {
+footer.navbar-custom {
     background-color: #484043;
     color: #EAD3A8;
 }
