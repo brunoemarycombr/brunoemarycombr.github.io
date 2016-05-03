@@ -8,11 +8,10 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4to9FJSeDwFo7vhqyj9VggAuCtgHpkIA&sensor=false"></script>
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/grayscale.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/countdown.min.js" | prepend: site.baseurl }}"></script>    	
-<script src="{{ "/js/jquery.flexslider.js" | prepend: site.baseurl }}"></script> 
+<script src="{{ "/js/countdown.min.js" | prepend: site.baseurl }}"></script>
 
 <script type="text/javascript" charset="utf-8">
-    $(window).load(function() {
-        $('.flexslider').flexslider();
+    $(document).ready(function() {
+        $('#galeria .galeria-section .container .row .col-lg-8').removeClass('col-lg-8 col-lg-offset-2');
     });
 </script>
