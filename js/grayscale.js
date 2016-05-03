@@ -323,30 +323,5 @@ function init() {
     google.maps.event.addListener(downingMarker, 'click', function() {
         downingInfoWindow.open(map, downingMarker);
     });
-
-    /*  var c3info = 'Ceremony @ New C3 Centre <br/>on Coldhams Lane';
-     var c3info = '<strong>What:</strong> Wedding Ceremony <br/>\
-    <strong>Where:</strong> New C3 Centre on Coldhams Lane';
-   var c3LatLng = new google.maps.LatLng(-23.97112, -46.32497);
-  var c3Marker = new google.maps.Marker({
-      position: c3LatLng,
-        map: map,
-         icon: image
-    });
-    var c3InfoWindow = new google.maps.InfoWindow({
-        content: c3info,
-        maxWidth: 300,
-        position: c3LatLng
-    });
-    if (autoOpen === true) {
-        c3InfoWindow.open(map, c3Marker);
-    }
-
-    google.maps.event.addListener(c3Marker, 'click', function() {
-        c3InfoWindow.open(map, c3Marker);
-    }); */
-
-
-
     update();
 }
