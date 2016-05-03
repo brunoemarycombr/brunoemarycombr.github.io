@@ -31,6 +31,9 @@ h3 {
         text-indent: 25px;
         font-size: 16px;
     }
+        .content-section p.text-center {
+            text-indent: 0;
+        }
 
 .top-nav-collapse,
 .navbar-custom.top-nav-collapse a,
@@ -60,8 +63,4 @@ footer {
 
 #map {
     margin-top: 0;
-}
-
-#listadepresentes img {
-    max-width: 100%;
 }
