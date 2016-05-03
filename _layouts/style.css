@@ -23,12 +23,17 @@ h3 {
     font-size: 30px;
 }
 
-.content-section p {
-    text-indent: 25px;
-    font-size: 16px;
+.content-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
+    .content-section p {
+        text-indent: 25px;
+        font-size: 16px;
+    }
 
 .top-nav-collapse,
+.navbar-custom.top-nav-collapse a,
 #galeria,
 #padrinhos,
 #quantofalta,
