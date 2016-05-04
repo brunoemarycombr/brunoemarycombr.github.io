@@ -8,7 +8,7 @@ name: pais
 
 <p class="text-justify">As pessoas que me deram a vida e que me ensinaram a melhor forma de viver não poderiam faltar nesse momento especial. Não seria suficiente e nem justo dizer apenas um “obrigado” aos meus pais por tudo que fizeram por nós desde que decidimos nos casar.</p>
 <p class="text-justify">Dito isso, só me resta dizer que sou grata por todos os momentos em que cada um, com seu jeito particular, demonstrou preocupação e cuidado. Muitas vezes brigamos por meio de gritos, mas a nossa fúria é como um raio que rasga o céu: logo desaparece. Apresentamos nossos pontos de vista meio exaltados, mas fazemos nossas concessões. Não temos medo de brigar porque confiamos no amor que nos une.</p>
-<p class="text-justify">a gratidão por vocês, pai e mãe, nunca poderá ser demonstrada em palavras. Só posso agradecer por vocês sempre estarem do meu lado. Sempre. Para ser um apoio, uma âncora ou um colo.</p>
+<p class="text-justify">A gratidão por vocês, pai e mãe, nunca poderá ser demonstrada em palavras. Só posso agradecer por vocês sempre estarem do meu lado. Sempre. Para ser um apoio, uma âncora ou um colo.</p>
 
 ### Aos pais do noivo:
 

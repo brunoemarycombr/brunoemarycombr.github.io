@@ -8,11 +8,24 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4to9FJSeDwFo7vhqyj9VggAuCtgHpkIA&sensor=false"></script>
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/grayscale.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/countdown.min.js" | prepend: site.baseurl }}"></script>
 
 <script type="text/javascript" charset="utf-8">
     $(document).ready(function() {
         $('#galeria .galeria-section .container .row .col-lg-8').removeClass('col-lg-8 col-lg-offset-2');
         $('#listadepresentes img').addClass('col-xs-12 col-sm-offset-3 col-sm-6 center-block');
+        
+        var hoje = new Date(),
+            evento = new Date(2016,9,15),
+            dias = 0;
+        dias = Math.ceil((evento - hoje)/(24*3600*1000))
+        if (dias > 1) {
+            $('#countdown').html(dias + " dias");
+        } else if (dias == 1) {
+            $('#countdown').html(dias + " dia!");
+        } else if (dias == 0) {
+            $('#countdown').html"É hoje!");
+        } else {
+            $('#countdown').html"Já estamos casados!!!");
+        }
     });
 </script>

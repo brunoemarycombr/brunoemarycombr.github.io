@@ -37,25 +37,6 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-function update() {
-    var units = countdown.YEARS | countdown.MONTHS | countdown.WEEKS | countdown.DAYS;
-    // countdown.setLabels(null, null, ' and ')
-    // countdown.setLabels(null, null, '<br /> and ')
-	countdown.setLabels(' milissegundo| segundo| minuto| hora| dia| semana| mês| ano| década| século| milênio',
-	' milissegundos| segundos| minutos| horas| dias| semanas| meses| anos| décadas| séculos| milênios',
-	' e ',
-	', ',
-	'agora');
-    var start = new Date(2016, 9, 15),
-        ts = countdown(null, start, units);
-
-    var counter = $('#countdown');
-
-    counter.html(ts.toHTML(null, 'É hoje!'));
-
-    requestAnimationFrame(update, counter.parentNode);
-}
-
 // Google Maps Scripts
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
@@ -323,5 +304,4 @@ function init() {
     google.maps.event.addListener(downingMarker, 'click', function() {
         downingInfoWindow.open(map, downingMarker);
     });
-    update();
 }
