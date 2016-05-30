@@ -149,12 +149,12 @@ a:focus {
     color: #0c0c0c;
     background-image: url("/img/proposal.jpg");
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: left bottom;
     background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+    -o-background-size: 100% auto;
 }
 
 .intro .intro-body {
