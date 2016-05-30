@@ -47,8 +47,10 @@ footer.navbar-custom {
 }
 
 #sobre,
+#pais,
 #familiares,
-#cerimoniaerecepcao {
+#cerimoniaerecepcao,
+#listadepresentes {
     background-color: #EAD3A8;
     color: #484043;
 }
