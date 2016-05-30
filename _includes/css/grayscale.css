@@ -147,7 +147,9 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #0c0c0c;
-    background: url(/img/proposal.png) no-repeat bottom center scroll;
+    background-image: url("/img/proposal.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
