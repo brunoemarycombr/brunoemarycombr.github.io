@@ -57,6 +57,11 @@ footer.navbar-custom {
 #galeria {
     padding: 0;
 }
+
+#quantofalta {
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
     #countdown {
         font-size: 52px;
         font-weight: 700;

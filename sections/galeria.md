@@ -15,7 +15,6 @@ name: galeria
         <li data-target="#galeria-fotos" data-slide-to="6"></li>
         <li data-target="#galeria-fotos" data-slide-to="7"></li>
         <li data-target="#galeria-fotos" data-slide-to="8"></li>
-        <li data-target="#galeria-fotos" data-slide-to="9"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -46,9 +45,6 @@ name: galeria
         </div>
         <div class="item">
             <img src="img/galeria/09.jpg" />
-        </div>
-        <div class="item">
-            <img src="img/galeria/10.jpg" />
         </div>
     </div>
 
