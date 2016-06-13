@@ -45,7 +45,7 @@ function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     if (window.screen.availWidth <= 1024) {
-        var zoom = 13;
+        var zoom = 15;
         var autoOpen = false;
     } else {
         var autoOpen = true;
@@ -60,7 +60,7 @@ function init() {
 
         // The latitude and longitude to center the map (always required)
         //center: new google.maps.LatLng(-23.96788, -46.32889), // Santos 
-		center: new google.maps.LatLng(-23.970232, -46.326928), // AEAS
+        center: new google.maps.LatLng(-23.970232, -46.326928), // AEAS
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
