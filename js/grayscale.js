@@ -49,7 +49,7 @@ function init() {
         var autoOpen = false;
     } else {
         var autoOpen = true;
-        var zoom = 15;
+        var zoom = 16;
     }
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
@@ -319,9 +319,6 @@ function init() {
         maxWidth: 300,
         position: hotelLatLng
     });
-    if (autoOpen === true) {
-        hotelInfoWindow.open(map, hotelMarker);
-    }
     google.maps.event.addListener(hotelMarker, 'click', function() {
         hotelInfoWindow.open(map, hotelMarker);
     });
