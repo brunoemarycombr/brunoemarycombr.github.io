@@ -42,15 +42,8 @@ $('.navbar-collapse ul li a').click(function() {
 google.maps.event.addDomListener(window, 'load', init);
 
 function init() {
-    // Basic options for a simple Google Map
-    // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-    if (window.screen.availWidth <= 1024) {
-        var zoom = 15;
-        var autoOpen = false;
-    } else {
-        var autoOpen = true;
-        var zoom = 16;
-    }
+    var autoOpen = true;
+    var zoom = 16;
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
         // zoom: 15,
@@ -277,21 +270,6 @@ function init() {
 
     var mapElement = document.getElementById('map');
     var map = new google.maps.Map(mapElement, mapOptions);
-
-    var festaLatLng = new google.maps.LatLng(-23.970232, -46.326928);
-    var festaMarker = new google.maps.Marker({
-        position: festaLatLng,
-        map: map,
-        icon: 'img/pin-festa.png'
-    });
-    var festaInfoWindow = new google.maps.InfoWindow({
-        content: '<strong>Associação dos Engenheiros e Arquitetos de Santos</strong><br />Rua Dr. Artur Porchat de Assis, 47',
-        maxWidth: 300,
-        position: festaLatLng
-    });
-    google.maps.event.addListener(festaMarker, 'click', function() {
-        festaInfoWindow.open(map, festaMarker);
-    });
     
     var garagemLatLng = new google.maps.LatLng(-23.971194, -46.323999);
     var garagemMarker = new google.maps.Marker({
@@ -323,5 +301,18 @@ function init() {
         hotelInfoWindow.open(map, hotelMarker);
     });
     
-    
+    var festaLatLng = new google.maps.LatLng(-23.970232, -46.326928);
+    var festaMarker = new google.maps.Marker({
+        position: festaLatLng,
+        map: map,
+        icon: 'img/pin-festa.png'
+    });
+    var festaInfoWindow = new google.maps.InfoWindow({
+        content: '<strong>Associação dos Engenheiros e Arquitetos de Santos</strong><br />Rua Dr. Artur Porchat de Assis, 47',
+        maxWidth: 300,
+        position: festaLatLng
+    });
+    google.maps.event.addListener(festaMarker, 'click', function() {
+        festaInfoWindow.open(map, festaMarker);
+    });
 }
