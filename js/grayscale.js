@@ -275,33 +275,56 @@ function init() {
 
     };
 
-    // Get the HTML DOM element that will contain your map
-    // We are using a div with id="map" seen below in the <body>
     var mapElement = document.getElementById('map');
-
-    // Create the Google Map using out element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
 
-    // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-    var image = 'img/map-marker2.png';
-    var downinginfo = '<strong>Local:</strong> Associação dos Engenheiros e Arquitetos de Santos<br/>\
-                        <strong>Endereço:</strong> Rua Dr. Artur Porchat de Assis, 47 - Santos/SP';
-
-    var downingLatLng = new google.maps.LatLng(-23.970232, -46.326928);
-    var downingMarker = new google.maps.Marker({
-        position: downingLatLng,
+    var festaLatLng = new google.maps.LatLng(-23.970232, -46.326928);
+    var festaMarker = new google.maps.Marker({
+        position: festaLatLng,
         map: map,
-        // icon: image
+        icon: 'img/pin-festa.png'
     });
-    var downingInfoWindow = new google.maps.InfoWindow({
-        content: downinginfo,
+    var festaInfoWindow = new google.maps.InfoWindow({
+        content: '<strong>Associação dos Engenheiros e Arquitetos de Santos</strong><br />Rua Dr. Artur Porchat de Assis, 47',
         maxWidth: 300,
-        position: downingLatLng
+        position: festaLatLng
+    });
+    google.maps.event.addListener(festaMarker, 'click', function() {
+        festaInfoWindow.open(map, festaMarker);
+    });
+    
+    var garagemLatLng = new google.maps.LatLng(-23.971194, -46.323999);
+    var garagemMarker = new google.maps.Marker({
+        position: garagemLatLng,
+        map: map,
+        icon: 'img/pin-garagem.png'
+    });
+    var garagemInfoWindow = new google.maps.InfoWindow({
+        content: '<strong>Estacionamento Sanpark Condomínio Jançara</strong><br />Av. Conselheiro Nébias, 827',
+        maxWidth: 300,
+        position: garagemLatLng
+    });
+    google.maps.event.addListener(garagemMarker, 'click', function() {
+        garagemInfoWindow.open(map, garagemMarker);
+    });
+    
+    var hotelLatLng = new google.maps.LatLng(-23.970549, -46.329093);
+    var hotelMarker = new google.maps.Marker({
+        position: hotelLatLng,
+        map: map,
+        icon: 'img/pin-hotel.png'
+    });
+    var hotelInfoWindow = new google.maps.InfoWindow({
+        content: '<strong>Mercure Hotel Santos</strong><br />Av. Washington Luiz, 565',
+        maxWidth: 300,
+        position: hotelLatLng
     });
     if (autoOpen === true) {
-        downingInfoWindow.open(map, downingMarker);
+        hotelInfoWindow.open(map, hotelMarker);
     }
-    google.maps.event.addListener(downingMarker, 'click', function() {
-        downingInfoWindow.open(map, downingMarker);
+    google.maps.event.addListener(hotelMarker, 'click', function() {
+        hotelInfoWindow.open(map, hotelMarker);
     });
+    
+    
 }
